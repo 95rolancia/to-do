@@ -1,0 +1,107 @@
+* {
+  font-family: "East Sea Dokdo", cursive;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: darkgray;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  width: 400px;
+  height: 600px;
+}
+
+.header {
+  height: 50px;
+  font-size: 2rem;
+  background-color: skyblue;
+}
+
+.addbar {
+  background-color: skyblue;
+}
+
+.addbar__border {
+  padding: 1em;
+}
+
+.addbar__form {
+  display: flex;
+  border-top: 2px solid whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.addbar__input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding-left: 1em;
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+
+.addbar__btn {
+  display: flex; /*이걸 넣어야 수직 정렬이되네요..? */
+  font-size: 2rem;
+  padding: 0.3em;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: whitesmoke;
+  background-color: transparent;
+  transition: all 300ms ease-in;
+}
+
+.addbar__btn:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  font-size: 2rem;
+  padding-bottom: 1em;
+  max-height: 10em;
+  overflow: auto;
+  background-color: skyblue;
+}
+
+.item {
+  position: relative;
+  margin: 0em 0.5em;
+  border-bottom: 1px solid whitesmoke;
+}
+
+i.fas.fa-trash-alt {
+  /* display: none; */
+  position: absolute;
+  font-size: 1.5rem;
+  right: 0.5em;
+  top: 0.25em;
+  color: red;
+}
+
+.item:hover i.fas.fa-trash-alt {
+  display: block;
+}
