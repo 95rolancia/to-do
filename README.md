@@ -1,7 +1,5 @@
 ## html, css, javascript 만으로 TO-DO app 만들어보기!
 
-##
-
 - [장준혁](https://github.com/95rolancia)
 
 ## 🏅 기술 스택
@@ -19,4 +17,4 @@
 
 ## 데모
 
-- 추가 예정
+- https://95rolancia.github.io/todo-html-css-javascript/
