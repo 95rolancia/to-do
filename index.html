@@ -17,10 +17,11 @@
     <title>TO-DO</title>
   </head>
   <body>
-    <div class="container">
+    <section class="container">
       <header class="header">
         <span class="header__title">just one task to do 😎</span>
       </header>
+
       <div class="addbar">
         <div class="addbar__border">
           <form class="addbar__form">
@@ -34,12 +35,17 @@
         </div>
       </div>
 
-      <ul class="content">
-        <li class="item">
-          <span>hello</span>
-          <i class="fas fa-trash-alt"></i>
+      <ul class="items">
+        <li class="item__row">
+          <div class="item">
+            <span class="item__name">hello</span>
+            <button class="item__delete">
+              <i class="fas fa-trash-alt"></i>
+            </button>
+          </div>
+          <div class="item__divider"></div>
         </li>
       </ul>
-    </div>
+    </section>
   </body>
 </html>
