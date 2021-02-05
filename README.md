@@ -10,6 +10,12 @@
 
 ## 기능
 
+- task 추가
+- task 삭제
+- task 클릭 시 task에 line-through 추가
+- task localstorage에 저장
+
+## 현황
 - <del>task 추가</del>
 - <del>task 삭제</del>
 - <del>task 클릭 시 task에 line-through 추가</del>
