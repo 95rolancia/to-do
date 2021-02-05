@@ -10,10 +10,11 @@
 
 ## 기능
 
-- task 추가
-- task 삭제
-- task 클릭 시 task에 line-through 추가
-- ... 추가 예정
+- <del>task 추가</del>
+- <del>task 삭제</del>
+- <del>task 클릭 시 task에 line-through 추가</del>
+- <del>task localstorage에 저장</del>
+- localstorage에 line-throught 여부까지 저장하기!
 
 ## 데모
 
