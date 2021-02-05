@@ -100,3 +100,12 @@ function start() {
 }
 
 start();
+
+// animation
+
+const headerIcon = document.querySelector(".header__icon");
+headerIcon.addEventListener("click", () => {
+  headerIcon.classList.remove("bounce");
+  headerIcon.offsetWidth = headerIcon.offsetWidth;
+  headerIcon.classList.add("bounce");
+});
